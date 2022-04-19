@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-trustpilot",
+  "name": "gatsby-plugin-trustpilot-trustbox",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -18,9 +18,16 @@
   "keywords": [
     "gatsby",
     "trustpilot",
-    "gatsby-plugin"
+    "gatsby-plugin",
+    "novagaia"
   ],
-  "author": "NovaGaïa",
+  "maintainers": [
+    {
+      "name": "NovaGaïa",
+      "email": "contact@novagaia.fr",
+      "url": "http://novagaia.fr"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NovaGaia/gatsby-plugin-trustpilot/issues"
