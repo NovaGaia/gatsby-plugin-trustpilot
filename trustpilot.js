@@ -13,9 +13,9 @@ var _react = _interopRequireDefault(require("react"));
 
 /**
  * Display a Trustpilot TrustBox.
- * @param {*} local TrustBox local, default 'en-EN'
+ * @param {*} locale TrustBox locale, default 'en-EN'
  * @param {*} styleHeight TrustBox styleHeight, default '24px'
- * @param {*} styleHeight TrustBox styleHeight, default '100%'
+ * @param {*} styleWidth TrustBox styleWidth, default '100%'
  * @param {*} theme TrustBox theme ('dark', 'light'), default 'light'
  * @param {*} minReviewCount TrustBox minReviewCount (null, 10, 20, 50), default 'null'
  * @param {*} defaultRevueURL TrustBox fallback link URL
