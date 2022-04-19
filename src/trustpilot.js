@@ -60,6 +60,9 @@ function TrustPilotBox({
   // console.log('config', config)
 
   const fallbackStyle = `
+        .trustpilot-widget {
+          text-align: center;
+        }
         @media screen and (min-width: 145px)
         .tp-widget-logo {
             width: 80px;
@@ -84,7 +87,7 @@ function TrustPilotBox({
         href={defaultRevueURL}
         target="_blank"
         rel="noopener"
-        className={defaultClassName}
+        className={`fallback-link tp-widget-rating ${defaultClassName}`}
       >
         {defaultLabel || 'see all our reviews on'}{' '}
         <div id="tp-widget-logo" className="tp-widget-logo">

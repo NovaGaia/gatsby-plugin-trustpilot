@@ -69,7 +69,7 @@ function TrustPilotBox(_ref) {
   } // console.log('config', config)
 
 
-  var fallbackStyle = "\n        @media screen and (min-width: 145px)\n        .tp-widget-logo {\n            width: 80px;\n        }\n        .tp-widget-logo {\n            width: 65px;\n        }\n        .tp-widget-rating, .tp-widget-logo {\n            display: inline-block;\n            font-size: 13px;\n            line-height: 15px;\n            margin: 0 4px 3px;\n            vertical-align: bottom;\n        }";
+  var fallbackStyle = "\n        .trustpilot-widget {\n          text-align: center;\n        }\n        @media screen and (min-width: 145px)\n        .tp-widget-logo {\n            width: 80px;\n        }\n        .tp-widget-logo {\n            width: 65px;\n        }\n        .tp-widget-rating, .tp-widget-logo {\n            display: inline-block;\n            font-size: 13px;\n            line-height: 15px;\n            margin: 0 4px 3px;\n            vertical-align: bottom;\n        }";
   return /*#__PURE__*/_react.default.createElement("div", (0, _extends2.default)({
     ref: ref // Nous avons besoin d'une référence à cet élément pour charger la TrustBox dans l'effet (effect).
 
@@ -77,7 +77,7 @@ function TrustPilotBox(_ref) {
     href: defaultRevueURL,
     target: "_blank",
     rel: "noopener",
-    className: defaultClassName
+    className: "fallback-link tp-widget-rating " + defaultClassName
   }, defaultLabel || 'see all our reviews on', ' ', /*#__PURE__*/_react.default.createElement("div", {
     id: "tp-widget-logo",
     className: "tp-widget-logo"
