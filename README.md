@@ -2,6 +2,11 @@
 
 Gatsby plugin to display your Trustpilot reviews on your website.
 
+![License](https://img.shields.io/github/license/NovaGaia/gatsby-plugin-trustpilot?style=flat-square)
+![Version](https://img.shields.io/npm/v/gatsby-plugin-trustpilot-trustbox?style=flat-square)
+![Gatsby Version](https://img.shields.io/npm/dependency-version/gatsby-plugin-trustpilot-trustbox/peer/gatsby?style=flat-square)
+![React Version](https://img.shields.io/npm/dependency-version/gatsby-plugin-trustpilot-trustbox/peer/react?style=flat-square)
+
 ### Changelog
 
 **More informations in [`CHANGELOG.md`](https://github.com/NovaGaia/gatsby-plugin-trustpilot/blob/main/CHANGELOG.md)**
