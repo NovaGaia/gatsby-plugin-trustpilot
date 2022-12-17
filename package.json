@@ -42,10 +42,5 @@
     "release-it": "^14.14.2",
     "babel-preset-gatsby-package": "^2.12.1"
   },
-  "dependencies": {},
-  "peerDependencies": {
-    "gatsby": "3 - 5",
-    "react": "17 - 18",
-    "react-dom": "17 - 18"
-  }
+  "dependencies": {}
 }
